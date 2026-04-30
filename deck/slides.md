@@ -538,10 +538,12 @@ class: theme-lain layer-cyberpunk
     <div class="close-sub"><Slashes :items="['mario vázquez corte', 'dacc itam', '2026']" /></div>
   </div>
 
+  <img src="/img/turing_meme.webp" style="max-height:72%;max-width:36%;object-fit:contain;border-radius:6px;opacity:0.92" />
+
   <div class="close-qr">
     <QrCode
       value="https://uumami.wiki/presentacion_church_turing/"
-      :size="220"
+      :size="200"
       background="#0b0f0d"
       foreground="#7fffb5"
     />
