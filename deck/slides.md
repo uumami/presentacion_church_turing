@@ -488,6 +488,33 @@ class: theme-lain
 
 ---
 layout: default
+class: theme-vinland layer-solarpunk
+---
+
+<div style="position:absolute;inset:0;overflow:hidden">
+  <img src="/img/13_solarpunk.png" style="width:100%;height:100%;object-fit:cover;opacity:0.55" onerror="this.style.display='none'" />
+  <div style="position:absolute;inset:0;background:linear-gradient(to right, rgba(10,20,10,0.82) 42%, rgba(10,20,10,0.2) 100%)"></div>
+</div>
+
+<div style="position:relative;z-index:10;padding:3rem 3.5rem;height:100%;display:flex;flex-direction:column;justify-content:center;max-width:52%">
+  <h1 style="font-size:3.8rem;font-weight:300;line-height:1.1;margin-bottom:2rem">y después</h1>
+
+  <p style="font-size:1.45rem;line-height:1.7;opacity:0.9;margin-bottom:1.2rem">
+    si somos computación — podemos elegir qué computar.
+  </p>
+  <p style="font-size:1.35rem;line-height:1.7;opacity:0.75;margin-bottom:1.2rem">
+    saber cómo funcionamos no nos obliga a ningún futuro en particular. la pregunta no es qué somos, sino qué construimos con eso.
+  </p>
+  <p style="font-size:1.25rem;line-height:1.7;opacity:0.55;margin-bottom:1.2rem">
+    una civilización que entiende sus propios límites computacionales puede diseñarse con más cuidado: más justa, más verde, más consciente de sus sesgos.
+  </p>
+  <p style="font-size:1.1rem;line-height:1.7;opacity:0.38;font-family:var(--font-mono)">
+    church-turing no es un techo. es un mapa.
+  </p>
+</div>
+
+---
+layout: default
 class: theme-lain layer-cyberpunk
 ---
 

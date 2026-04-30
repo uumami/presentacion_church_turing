@@ -61,3 +61,11 @@ Prompt:
 ---
 Thorfinn from Vinland Saga, older version, sitting peacefully on a hillside at golden hour watching the sunset. He has a serene, accepting expression. The sky is filled with gentle aurora-like patterns that form subtle circuit board traces. The mood is peaceful acceptance and wonder, not dread. Warm amber and green tones. Wit Studio anime aesthetic, beautiful countryside landscape. Portrait orientation.
 ---
+
+## SLIDE 13 — solarpunk future
+File:   img/13_solarpunk.png
+Ancla:  solarpunk × Nausicaä × eco
+Prompt:
+---
+Wide cinematic solarpunk landscape, anime illustration style (NOT Studio Ghibli — closer to Production I.G or Trigger). A lush futuristic city where nature and technology coexist in harmony: towers covered in vertical gardens, solar panels woven into canopies of trees, wind turbines shaped like giant flowers, bioluminescent plants along walkways, clean rivers running through the streets. Warm golden afternoon light. People of all kinds working together in community gardens and open workshops. The atmosphere is hopeful, abundant, peaceful — the opposite of dystopia. Rich greens, warm ambers, sky blue. Ultra-detailed, painterly digital art. Widescreen landscape orientation.
+---
