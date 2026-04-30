@@ -406,7 +406,7 @@ class: theme-frieren layer-solarpunk
   <li><strong>materialismo:</strong> el cerebro es físico. lo físico es en principio simulable.</li>
   <li><strong>neurociencia:</strong> las neuronas disparan en pulsos discretos — spikes. parece computable.</li>
   <li><strong>Church-Turing-Deutsch:</strong> cualquier proceso físico puede ser simulado por una computadora universal.</li>
-  <li><strong>el propio turing:</strong> "si el hombre es un sistema físico finito, entonces su comportamiento es computable."</li>
+  <li><strong>el propio turing:</strong> "si una persona es un sistema físico finito, entonces su comportamiento es computable."</li>
 </ul>
 </div>
 
