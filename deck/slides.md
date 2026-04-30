@@ -439,18 +439,18 @@ class: theme-frieren layer-vaporwave
 <div style="display:grid;grid-template-columns:1fr 1.1fr;gap:3rem;margin-top:1.5rem;align-items:center">
 <div>
 <div class="big-quote theme-frieren-q" style="font-size:1.5rem">
-  ningún sistema puede producir una descripción completamente correcta de sí mismo.
+  el problema no es si somos MT — es que no somos capaces de describir lo que hacemos.
 </div>
 
 <div style="margin-top:2rem">
 <p style="font-size:1.3rem;line-height:1.6;opacity:0.8">
-  análogo al teorema de incompletitud de gödel: hay enunciados verdaderos que el sistema no puede demostrar.
+  para comparar una mente con una MT necesitaríamos primero escribir el algoritmo de la mente. y eso es exactamente lo que no podemos hacer.
 </p>
 <p style="font-size:1.3rem;line-height:1.6;opacity:0.8;margin-top:1rem">
-  implicación: incluso si somos MT — no podemos conocer nuestra propia función de transición δ.
+  von neumann argumentaba que la barrera es <em>descriptiva</em>: no tenemos el lenguaje formal para siquiera formular bien la pregunta.
 </p>
 <p style="font-size:1.1rem;line-height:1.6;opacity:0.5;margin-top:1rem">
-  somos ciegos a nuestro propio hardware.
+  no es que la respuesta sea "no" — es que la pregunta todavía no tiene forma precisa.
 </p>
 </div>
 </div>
