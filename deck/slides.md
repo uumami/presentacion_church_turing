@@ -515,6 +515,20 @@ class: theme-vinland layer-solarpunk
 
 ---
 layout: default
+class: theme-lain
+---
+
+<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:3rem;padding:2rem 3.5rem">
+  <img src="/img/turing_meme.webp" style="max-height:88%;max-width:55%;object-fit:contain;border-radius:6px" />
+  <div style="display:flex;flex-direction:column;gap:1.2rem;max-width:36%">
+    <p style="font-size:1.35rem;line-height:1.6;opacity:0.85">el test de turing sigue siendo la mejor navaja de occam para la pregunta.</p>
+    <p style="font-size:1.25rem;line-height:1.6;opacity:0.6">si no puedes distinguirlo — ¿importa la respuesta?</p>
+    <p style="font-size:1.05rem;line-height:1.6;opacity:0.35;font-family:var(--font-mono)">🏳️‍🌈 alan turing merece un futuro mejor que el que le dieron.</p>
+  </div>
+</div>
+
+---
+layout: default
 class: theme-lain layer-cyberpunk
 ---
 
