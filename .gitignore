@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.py[codz]
+.venv
+env/
+venv/
+
+# node / slidev
+node_modules/
+deck/dist/
+deck/.slidev/
+
+# env / secrets
+.env
+.envrc
+
+# local
+.claude/
+.cache/
+
+# os
+.DS_Store

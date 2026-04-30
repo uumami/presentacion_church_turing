@@ -1,0 +1,63 @@
+## SLIDE 01 — cover
+File:   img/01_ct_cover.png
+Ancla:  Lain × cyberpunk
+Prompt:
+---
+Digital landscape, abstract neural network as glowing green nodes and edges on deep black background. Mathematical symbols float in the air: δ, λ, Q, Γ written in neon green monospace font. Background has subtle grid lines. A long magnetic tape stretches across the scene diagonally, its cells showing binary 0s and 1s. Vaporwave aesthetic with cyan and magenta gradient accents at the edges. Dark, moody, cinematic. Inspired by Serial Experiments Lain visual style. No characters. No text overlays. Ultra-detailed digital art.
+---
+
+## SLIDE 02 — alan turing
+File:   img/02_turing.png
+Ancla:  GITS × cyberpunk
+Prompt:
+---
+Motoko Kusanagi from Ghost in the Shell sitting at an enormous terminal covered in scrolling green monospace code. She is studying papers with mathematical equations. The room is dark with blue-cyan lighting. Multiple screens show binary sequences and state transition diagrams. Her cybernetic eyes reflect the screens. Photorealistic anime style, Mamoru Oshii film aesthetic, ultra detailed. Portrait orientation.
+---
+
+## SLIDE 03 — alonzo church
+File:   img/03_church.png
+Ancla:  Frieren × vaporwave
+Prompt:
+---
+Frieren the silver-haired elf mage from the anime "Frieren: Beyond Journey's End" sitting in a vast library surrounded by floating glowing lambda symbols (λ) and abstract mathematical formulae. She is writing in a large tome. Candlelight and soft blue magical glow. Mathematical notation drifts through the air like magical dust: f(x), λx.x, recursive arrows. Madhouse studio anime style, beautiful and contemplative. Portrait orientation.
+---
+
+## SLIDE 07 — extension filosofica
+File:   img/07_extension.png
+Ancla:  Lain × vaporwave
+Prompt:
+---
+Lain Iwakari from Serial Experiments Lain floating in a digital void. Around her, a glowing chain of concepts written in light: "computable" → "algoritmo" → "proceso mental" → "cerebro" → "máquina de turing". The chain spirals downward into darkness. Neon green and cyan lighting. Her expression is curious, not afraid. Dark cyberpunk anime aesthetic, Ken Sahara character design style. Ultra detailed illustration.
+---
+
+## SLIDE 09 — argumentos a favor
+File:   img/09_afavor.png
+Ancla:  GITS × solarpunk
+Prompt:
+---
+Motoko Kusanagi from Ghost in the Shell looking at her own mechanical hand with wonder and self-reflection. Her hand is translucent showing circuitry within. Background shows a city skyline at dusk with green and gold light. Mathematical neurons and synaptic connections glow softly around her. The mood is contemplative, not threatening. Warm solarpunk tones. Anime style, ultra detailed.
+---
+
+## SLIDE 10 — argumentos en contra
+File:   img/10_encontra.png
+Ancla:  Frieren × Elden Ring
+Prompt:
+---
+Frieren the silver-haired elf mage from the anime standing in a dark ruins at night, looking upward at a sky filled with incompleteness symbols (⊬), question marks, and Penrose tiles floating like stars. She holds her staff contemplatively. The atmosphere is mysterious and philosophical. Deep navy and gold color palette. Madhouse studio anime style, cinematic lighting. Portrait orientation.
+---
+
+## SLIDE 11 — von neumann
+File:   img/11_vonneumann.png
+Ancla:  Lain × Frieren
+Prompt:
+---
+Abstract digital illustration: a mirror reflecting a mirror reflecting a mirror, infinite recursion, each reflection slightly corrupted and more pixelated. Inside the central mirror is a Turing machine tape. Green phosphor glow on dark background. Mathematical notation along the edges: "G(x) ≠ G(G(x))", self-reference loops, Gödel numbering. Inspired by Serial Experiments Lain aesthetic. No characters. Dark and elegant.
+---
+
+## SLIDE 12 — mi opinion
+File:   img/12_opinion.png
+Ancla:  Vinland × peace
+Prompt:
+---
+Thorfinn from Vinland Saga, older version, sitting peacefully on a hillside at golden hour watching the sunset. He has a serene, accepting expression. The sky is filled with gentle aurora-like patterns that form subtle circuit board traces. The mood is peaceful acceptance and wonder, not dread. Warm amber and green tones. Wit Studio anime aesthetic, beautiful countryside landscape. Portrait orientation.
+---

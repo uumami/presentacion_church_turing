@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Cinzel:wght@500;600;700&family=Shippori+Mincho:wght@500;700&display=swap');
+
+/* ============================================================
+   uumami theme — paletas + tipografía + capas gráficas
+   ============================================================ */
+
+/* ============================================================
+   KILL SWITCH: all Slidev overlay panels that can block the slide
+   ============================================================ */
+#page-root {
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+}
+#page-root > *:nth-child(n+2) {
+  display: none !important;
+}
+#slidev-goto-dialog {
+  display: none !important;
+}
+
+:root {
+  /* lain */
+  --lain-bg:      #0b0f0d;
+  --lain-fg:      #7fffb5;
+  --lain-ink:     #e8fff3;
+  --lain-dim:     #2a4a38;
+
+  /* eva */
+  --eva-bg:       #0a0511;
+  --eva-fg:       #ff3a2f;
+  --eva-amber:    #f7b500;
+  --eva-ink:      #f6e9e3;
+
+  /* frieren (variante oscura) */
+  --frieren-bg:   #0d1420;
+  --frieren-fg:   #a5b3cf;
+  --frieren-sil:  #1f2a40;
+  --frieren-gold: #d4af6b;
+  --frieren-ink:  #e8ecf4;
+
+  /* vinland */
+  --vinland-bg:   #14100c;
+  --vinland-fg:   #d7c7a3;
+  --vinland-red:  #8b2d2d;
+  --vinland-ink:  #f3ead6;
+
+  /* elden */
+  --elden-bg:     #1a1410;
+  --elden-fg:     #c9a159;
+  --elden-ink:    #e8d9b0;
+  --elden-dim:    #4a3a2a;
+
+  /* capas */
+  --vapor-mag:    #ff2ec3;
+  --vapor-cyan:   #2ef5ff;
+  --vapor-viol:   #a64dff;
+  --cyber-red:    #ff0044;
+  --cyber-cyan:   #00e5ff;
+  --cyber-amber:  #ff9f1c;
+  --solar-green:  #6ab04c;
+  --solar-gold:   #f7b500;
+  --solar-rust:   #c76e3a;
+
+  /* tipografías */
+  --font-mono:    'IBM Plex Mono', ui-monospace, monospace;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-display: 'Cinzel', serif;
+  --font-jp:      'Shippori Mincho', 'Noto Serif JP', serif;
+}
+
+/* ============================================================
+   slide base — fuentes grandes, espacio generoso
+   ============================================================ */
+
+.slidev-layout {
+  background: var(--lain-bg);
+  color: var(--lain-ink);
+  font-family: var(--font-body);
+  padding: 3rem 3.5rem !important;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: var(--font-body);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+
+.slidev-layout h1 {
+  font-size: 4.5rem;
+  line-height: 1.05;
+  margin: 0 0 1.5rem 0;
+  max-width: 95%;
+}
+
+.slidev-layout h2 {
+  font-size: 2.6rem;
+  opacity: 0.82;
+  font-weight: 300;
+}
+
+.slidev-layout h3 {
+  font-size: 1.8rem;
+  opacity: 0.82;
+}
+
+.slidev-layout code,
+.slidev-layout pre {
+  font-family: var(--font-mono);
+}
+
+.slidev-layout p,
+.slidev-layout li {
+  font-size: 1.45rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.slidev-layout ul {
+  padding-left: 1.5rem;
+}
+
+.slidev-layout li {
+  margin-bottom: 0.5rem;
+}
+
+.slidev-layout .kv {
+  font-size: 1.2rem;
+}
+.slidev-layout .kv > div {
+  padding: 0.2rem 0;
+}
+
+/* slashes / meta line */
+.slashes {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  opacity: 0.6;
+  letter-spacing: 0.08em;
+}
+
+/* fórmula matemática */
+.formula {
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  padding: 0.5rem 0;
+}
+.formula .sym {
+  color: var(--lain-fg);
+  font-weight: 500;
+}
+
+/* cadena filosófica */
+.chain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.chain .step {
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: 0.3rem 0;
+}
+.chain .arrow {
+  font-family: var(--font-mono);
+  color: var(--lain-fg);
+  opacity: 0.5;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+.chain .step.highlight {
+  color: var(--lain-fg);
+  font-weight: 400;
+}
+
+/* bloque advertencia */
+.warning {
+  border-left: 3px solid var(--eva-fg);
+  padding: 0.8rem 1.2rem;
+  margin: 1rem 0;
+  background: rgba(255, 58, 47, 0.05);
+  border-radius: 0 4px 4px 0;
+}
+.warning p {
+  font-size: 1.3rem !important;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* quote grande */
+.big-quote {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.92;
+  border-left: 3px solid var(--lain-fg);
+  padding-left: 1.5rem;
+}
+.big-quote.theme-frieren-q { border-left-color: var(--frieren-gold); }
+.big-quote.theme-eva-q     { border-left-color: var(--eva-fg); }
+
+/* ============================================================
+   layout-specific palettes
+   ============================================================ */
+
+.slidev-layout.theme-lain {
+  background: var(--lain-bg);
+  color: var(--lain-ink);
+}
+.slidev-layout.theme-lain h1 { color: var(--lain-fg); text-shadow: 0 0 20px rgba(127,255,181,0.35); }
+
+.slidev-layout.theme-eva {
+  background: var(--eva-bg);
+  color: var(--eva-ink);
+}
+.slidev-layout.theme-eva h1 { color: var(--eva-fg); }
+.slidev-layout.theme-eva h2 { color: var(--eva-amber); }
+
+.slidev-layout.theme-frieren {
+  background: var(--frieren-bg);
+  color: var(--frieren-ink);
+}
+.slidev-layout.theme-frieren h1 {
+  color: var(--frieren-gold);
+  font-family: var(--font-display);
+  font-weight: 500;
+  text-shadow: 0 0 25px rgba(212, 175, 107, 0.25);
+}
+.slidev-layout.theme-frieren h2 { color: var(--frieren-fg); }
+.slidev-layout.theme-frieren .kv .k { color: var(--frieren-gold); }
+
+.slidev-layout.theme-vinland {
+  background: var(--vinland-bg);
+  color: var(--vinland-ink);
+}
+.slidev-layout.theme-vinland h1 {
+  color: var(--vinland-fg);
+  font-family: var(--font-display);
+  font-weight: 500;
+}
+
+.slidev-layout.theme-elden {
+  background: var(--elden-bg);
+  color: var(--elden-ink);
+}
+.slidev-layout.theme-elden h1 {
+  color: var(--elden-fg);
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-shadow: 0 0 30px rgba(201,161,89,0.3);
+}
+
+/* ============================================================
+   capa graphic: vaporwave / cyberpunk / solarpunk
+   ============================================================ */
+
+.slidev-layout.layer-vaporwave::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    linear-gradient(180deg, transparent 0%, transparent 70%, rgba(255,46,195,0.10) 90%, rgba(46,245,255,0.08) 100%),
+    linear-gradient(0deg, rgba(166,77,255,0.04), transparent 50%);
+}
+.slidev-layout.layer-cyberpunk::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse at 20% 110%, rgba(0,229,255,0.10), transparent 60%),
+    radial-gradient(ellipse at 90% 0%, rgba(255,0,68,0.06), transparent 50%);
+}
+.slidev-layout.layer-solarpunk::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse at 80% 100%, rgba(106,176,76,0.10), transparent 60%),
+    radial-gradient(ellipse at 15% 20%, rgba(247,181,0,0.06), transparent 55%);
+}
+
+/* ============================================================
+   avatar — esquina inferior derecha
+   ============================================================ */
+
+.avatar-floating {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.15);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+/* ============================================================
+   misc utilities
+   ============================================================ */
+
+.handle {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  opacity: 0.85;
+}
+
+.kv {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  opacity: 0.75;
+}
+
+.kv .k { color: var(--lain-fg); }
+.theme-eva .kv .k { color: var(--eva-fg); }
+.theme-elden .kv .k { color: var(--elden-fg); }
+.theme-vinland .kv .k { color: var(--vinland-fg); }
+.theme-frieren .kv .k { color: var(--frieren-gold); }
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.chip {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  opacity: 0.75;
+}
+
+.ascii {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  line-height: 1.25;
+  white-space: pre;
+  opacity: 0.85;
+}
+
+/* imagen lateral */
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.88;
+}
+.slide-img-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 42%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.75;
+  mask-image: linear-gradient(90deg, transparent, black 30%);
+}
+
+/* selección */
+::selection { background: var(--lain-fg); color: var(--lain-bg); }
+.theme-eva ::selection { background: var(--eva-fg); color: var(--eva-bg); }
+.theme-elden ::selection { background: var(--elden-fg); color: var(--elden-bg); }
+
+/* links */
+.slidev-layout a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+  opacity: 0.95;
+  transition: opacity 0.15s, border-color 0.15s;
+  padding-bottom: 1px;
+}
+.slidev-layout a:hover {
+  opacity: 1;
+  border-bottom-style: solid;
+}
+.slidev-layout.theme-lain a       { color: var(--lain-fg); }
+.slidev-layout.theme-eva a        { color: var(--eva-amber); }
+.slidev-layout.theme-frieren a    { color: var(--frieren-gold); }
+.slidev-layout.theme-vinland a    { color: var(--vinland-red); }
+.slidev-layout.theme-elden a      { color: var(--elden-fg); }
