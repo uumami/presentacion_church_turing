@@ -519,11 +519,20 @@ class: theme-lain
 ---
 
 <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:3rem;padding:2rem 3.5rem">
-  <img src="/img/turing_meme.webp" style="max-height:88%;max-width:55%;object-fit:contain;border-radius:6px" />
-  <div style="display:flex;flex-direction:column;gap:1.2rem;max-width:36%">
-    <p style="font-size:1.35rem;line-height:1.6;opacity:0.85">el test de turing sigue siendo la mejor navaja de occam para la pregunta.</p>
-    <p style="font-size:1.25rem;line-height:1.6;opacity:0.6">si no puedes distinguirlo — ¿importa la respuesta?</p>
-    <p style="font-size:1.05rem;line-height:1.6;opacity:0.35;font-family:var(--font-mono)">🏳️‍🌈 alan turing merece un futuro mejor que el que le dieron.</p>
+  <img src="/img/turing_meme.webp" style="max-height:86%;max-width:52%;object-fit:contain;border-radius:6px;flex-shrink:0" />
+  <div style="display:flex;flex-direction:column;gap:1.4rem;max-width:38%">
+    <p style="font-size:1.4rem;line-height:1.6;color:#e8fff3">el test de turing sigue siendo la mejor navaja de occam para la pregunta.</p>
+    <p style="font-size:1.3rem;line-height:1.6;color:#7fffb5">si no puedes distinguirlo — ¿importa la respuesta?</p>
+    <p style="font-size:1.1rem;line-height:1.6;color:#f7b500;font-family:var(--font-mono)">🏳️‍🌈 alan turing merece un futuro mejor que el que le dieron.</p>
+    <div style="margin-top:0.5rem;display:flex;flex-direction:column;align-items:flex-start;gap:0.4rem">
+      <QrCode
+        value="https://uumami.wiki/presentacion_church_turing/"
+        :size="110"
+        background="#0b0f0d"
+        foreground="#7fffb5"
+      />
+      <span style="font-family:var(--font-mono);font-size:0.65rem;color:#7fffb5;opacity:0.45;letter-spacing:0.06em">la tesis de church-turing</span>
+    </div>
   </div>
 </div>
 
