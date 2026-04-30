@@ -175,23 +175,24 @@ class: theme-lain layer-cyberpunk
 ---
 
 # alan turing
+<div style="font-family:var(--font-mono);font-size:0.78rem;color:#2ef5ff;opacity:0.6;margin-bottom:0.8rem;letter-spacing:0.07em">1912 · 1954 · manchester</div>
 
-<div class="kv" style="margin-top:0.5rem">
-  <div><span class="k">1912–1954</span> <span class="v">· manchester, reino unido</span></div>
-  <div><span class="k">trabajo</span> <span class="v">· matemático, criptógrafo, biólogo teórico</span></div>
-  <div><span class="k">enigma</span> <span class="v">· descifró el código nazi en la WWII</span></div>
-  <div><span class="k">1936</span> <span class="v">· "on computable numbers" — inventa la MT</span></div>
-  <div><span class="k">pregunta</span> <span class="v">· ¿pueden las máquinas pensar?</span></div>
+<div class="kv" style="margin-top:0rem;font-size:1.05rem">
+  <div><span class="k">1936</span> <span class="v">· <strong>"on computable numbers"</strong> — define el algoritmo, inventa la MT, prueba que hay problemas irresolubles</span></div>
+  <div><span class="k">parada</span> <span class="v">· demostró que ningún algoritmo puede decidir si otro programa termina o corre infinito — el primer límite formal de la computación</span></div>
+  <div><span class="k">1939–45</span> <span class="v">· diseñó la <strong>Bombe</strong> para descifrar Enigma. se estima que acortó la WWII 2–4 años y salvó millones de vidas</span></div>
+  <div><span class="k">ACE</span> <span class="v">· propuso el diseño de una computadora de propósito general con programa almacenado — base de toda arquitectura moderna</span></div>
+  <div><span class="k">1950</span> <span class="v">· <strong>"computing machinery and intelligence"</strong> — propone el test de turing: si no puedes distinguirla de una persona, ¿importa si "piensa"?</span></div>
+  <div><span class="k">1952</span> <span class="v">· <strong>morfogénesis</strong> — modelo matemático de cómo surgen patrones en la naturaleza: manchas de leopardo, espirales de caracol. une biología y cómputo</span></div>
 </div>
 
-<p style="margin-top:1.5rem; opacity:0.65; font-size:1.2rem">
-  murió envenenado por el estado británico que lo había condenado por ser gay.
-  en 2013 fue indultado póstumamente.
+<p style="margin-top:1rem; opacity:0.5; font-size:1.05rem">
+  fue perseguido y condenado por el estado británico por ser gay. murió a los 41 años. indultado póstumamente en 2013.
 </p>
 
 ::right::
 
-<img src="/img/02_turing.png" class="slide-img" onerror="this.style.display:'none'" style="height:80%;object-fit:cover;border-radius:8px;opacity:0.82" />
+<img src="/img/02_turing.png" class="slide-img" onerror="this.style.display:'none'" style="height:90%;object-fit:cover;border-radius:8px;opacity:0.82" />
 
 ---
 layout: two-cols
