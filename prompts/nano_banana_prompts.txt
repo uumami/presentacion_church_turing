@@ -1,9 +1,9 @@
 ## SLIDE 01 — cover
 File:   img/01_ct_cover.png
-Ancla:  Lain × cyberpunk
+Ancla:  GITS × Frieren cinematic
 Prompt:
 ---
-Digital landscape, abstract neural network as glowing green nodes and edges on deep black background. Mathematical symbols float in the air: δ, λ, Q, Γ written in neon green monospace font. Background has subtle grid lines. A long magnetic tape stretches across the scene diagonally, its cells showing binary 0s and 1s. Vaporwave aesthetic with cyan and magenta gradient accents at the edges. Dark, moody, cinematic. Inspired by Serial Experiments Lain visual style. No characters. No text overlays. Ultra-detailed digital art.
+Anime illustration in Production I.G / Madhouse style (Ghost in the Shell, Frieren: Beyond Journey's End). NOT Studio Ghibli. A young androgynous mathematician with short hair sits in profile on the right side of the frame, back to the viewer, contemplating a vast dark void. They wear 1940s clothing with subtle circuitry patterns etched into the fabric. In front of them: a massive Turing machine — an infinite magnetic tape stretching into the distance with cells containing 0s and 1s, and a mechanical read-write head glowing faint green. The left two-thirds of the image is very dark — deep black with only faint teal-green ambient light — leaving space for text overlay. Soft neon green and cyan light sources illuminate the right side. The atmosphere is quiet, philosophical, profound. Cinematic widescreen composition. No text, no watermarks. Ultra-detailed digital art.
 ---
 
 ## SLIDE 02 — alan turing
